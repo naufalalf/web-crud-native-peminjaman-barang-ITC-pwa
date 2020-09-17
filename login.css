@@ -1,0 +1,50 @@
+h2   {color:white}
+p    {color:white}
+
+body, html {
+    background-repeat: no-repeat;
+    /*background-image: linear-gradient(135deg, rgba(31,123,229,1) 0%, rgba(58,139,232,1) 47%, rgba(70,153,234,1) 92%, rgba(72,156,234,1) 100%);*/
+    /*background-image: url("http://p1.pichost.me/640/54/1777799.jpg");*/
+    background-color: #F8F8FF;
+}
+
+.card-container.card {
+    width: 400px;
+    padding: 40px 40px;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #36393F;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 150px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-name-card {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #EAEAEB;
+    padding: 20px;
+}
+
+.profile-img-card {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}

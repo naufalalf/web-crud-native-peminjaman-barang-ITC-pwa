@@ -1,0 +1,17 @@
+{
+"name" : "ITCWeb",
+"short_name": "ITC Web",
+"description": "web ITC untuk peminjaman barang yagn terdapat di ITC",
+"theme_color": "#ffffff",
+"scope": "/",
+"start_url": "/",
+ "background_color": "#ffffff",
+ "display": "standalone",
+ "orientation": "portrait-primary",
+ "icons": [{
+   "src": "/images/logoFT.png",
+   "sizes": "72x72",
+   "type": "image/png"
+  }
+]
+}
